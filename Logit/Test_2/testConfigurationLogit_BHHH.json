@@ -1,0 +1,452 @@
+############################## Logit size 100  ##################################
+ 
+############################## Logit size 100  ##################################
+ 
+ -> Size population = 100000
+ -> Number alternatives = 5
+ -> x0 = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+ -> x optimum = [0.0, 1.0, 1.0, 2.0, 3.0, 5.0, 8.0, 13.0, 21.0, 34.0, 55.0, 89.0, 44.0, 33.0, 77.0, 10.0, 87.0, 97.0, 84.0, 81.0, 65.0, 46.0, 11.0, 57.0, 68.0, 25.0, 93.0, 18.0, 11.0, 29.0, 40.0, 69.0, 9.0, 78.0, 87.0, 65.0, 52.0, 17.0, 69.0, 86.0, 55.0, 41.0, 96.0, 37.0, 33.0, 70.0, 3.0, 73.0, 76.0, 49.0, 25.0, 74.0, 99.0, 73.0, 72.0, 45.0, 17.0, 62.0, 79.0, 41.0, 20.0, 61.0, 81.0, 42.0, 23.0, 65.0, 88.0, 53.0, 41.0, 94.0, 35.0, 29.0, 64.0, 93.0, 57.0, 50.0, 7.0, 57.0, 64.0, 21.0, 85.0, 6.0, 91.0, 97.0, 88.0, 85.0, 73.0, 58.0, 31.0, 89.0, 20.0, 9.0, 29.0, 38.0, 67.0, 5.0, 72.0, 77.0, 49.0, 26.0]
+
+ 
+############## Test 8 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + sHs : Fisher information 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+
+ 
+############## Test 9 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + sHs : Fisher information 
+ + VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+
+ 
+############## Test 10 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + sHs : Fisher information 
+ + VAC 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+
+ 
+############## Test 11 ###############
+ 
+#######  Adam Constant steplength #######
+ + α = 0.01
+ + β_1 = 0.9
+ + β_2 = 0.999
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 12 ###############
+ 
+#######  Adam Constant steplength #######
+ + α = 0.0001
+ + β_1 = 0.9
+ + β_2 = 0.999
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 13 ###############
+ 
+#######  Adam Constant steplength #######
+ + α = 0.5
+ + β_1 = 0.9
+ + β_2 = 0.999
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 14 ###############
+ 
+#######  Adam Constant steplength #######
+ + α = 1.0
+ + β_1 = 0.9
+ + β_2 = 0.999
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 15 ###############
+ 
+#######  SGD Constant steplength #######
+ + α = 0.01
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 16 ###############
+ 
+#######  SGD Constant steplength #######
+ + α = 0.5
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 17 ###############
+ 
+#######  SGD Constant steplength #######
+ + α = 1.0
+
+### Fixed size sampling ### 
+ + VAI 
+ + N = 100 
+ + Population size = 100000 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 10000 
+ + Time Max = 300.0 (s) 
+
+ 
+############## Test 1 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed True Hessian 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 2 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed True Hessian 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 3 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 4 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Uncomputed BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 5 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Diagonal Approximation BHHH 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 6 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + SGD-TR 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
+
+ 
+############## Test 7 ###############
+ 
+## Basic Trust Region (BTR) ##
+ + Diagonal Approximation Adam 
+## region update with coefficients ##
+ + rejection threshold, η1 = 0.01 
+ + very good iteration threshold, η2 = 0.8 
+ + contraction BAD iteration, γ1 = 0.5 
+ + contraction GOOD iteration, γ2 = 0.9 
+ + expansion VERY GOOD iteration, γ3 = 1.5 
+## Stopping parameters ##
+ + ϵ = 1.0000000000000004e-6 
+ + Iter Max = 5000 
+ + Time Max = 1800.0 (s) 
+
+### Dynamic sampling ### 
+ + True Variance 
+ + VAC / VAI 
+Confidence Interval : 
+ + α error = 0.05 
+ + quantile (1 - α) = 1.6448536269514717 
+Sample size initialisation : 
+ + N min = 50
+ + N max = 100000
+ + increment = 2
+ + N0 = 100
+Sub-sampling : 
+ + size = 0.25*N 
+ + size max = 10000 
+Smoothing : ## Naive ##
+ + coeff decrease = 0.75
+ + coeff increase = 2.0
